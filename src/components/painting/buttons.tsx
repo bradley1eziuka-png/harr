@@ -9,15 +9,15 @@ export const ctaButton = cva(
   {
     variants: {
       variant: {
-        // Gold primary — the conversion CTA on light and dark alike.
+        // Gold primary - the conversion CTA on light and dark alike.
         gold: "bg-accent text-primary shadow-[0_10px_30px_-12px_rgba(0,0,0,0.45)] hover:brightness-105 hover:-translate-y-0.5 hover:shadow-[0_18px_44px_-14px_rgba(217,154,56,0.55)]",
-        // Dark solid — secondary on light backgrounds.
+        // Dark solid - secondary on light backgrounds.
         solid:
           "bg-primary text-primary-foreground shadow-md hover:bg-navy-soft hover:-translate-y-0.5 hover:shadow-lg",
-        // Light outline — secondary on dark navy backgrounds.
+        // Light outline - secondary on dark navy backgrounds.
         outlineLight:
           "border border-white/30 bg-white/5 text-white backdrop-blur-sm hover:border-white/60 hover:bg-white/10",
-        // White solid — primary on dark backgrounds.
+        // White solid - primary on dark backgrounds.
         white: "bg-white text-primary shadow-md hover:-translate-y-0.5 hover:shadow-lg",
       },
       size: {

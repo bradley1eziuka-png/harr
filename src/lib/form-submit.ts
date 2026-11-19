@@ -3,7 +3,7 @@
 //
 //   formspree    POST to https://formspree.io/f/<formspreeId>
 //   ghl-webhook  POST JSON to a GoHighLevel workflow "Inbound Webhook" URL
-//   demo         not connected — NEVER reports success
+//   demo         not connected - NEVER reports success
 //
 // Success is returned only when the receiving service answers 2xx. Network
 // failures, CORS blocks, and non-2xx answers all return { status: "error" }.
@@ -66,7 +66,7 @@ export async function submitEstimate(
       res = await fetch(`https://formspree.io/f/${formspreeId}`, {
         method: "POST",
         headers: { "Content-Type": "application/json", Accept: "application/json" },
-        body: JSON.stringify({ ...common, _subject: `New estimate request — ${BUSINESS_NAME}` }),
+        body: JSON.stringify({ ...common, _subject: `New estimate request: ${BUSINESS_NAME}` }),
       });
     } else {
       res = await fetch(webhookUrl, {

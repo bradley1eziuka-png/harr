@@ -1,5 +1,5 @@
 // Trust-building strip shown in place of customer reviews until real,
-// verified reviews exist. Facts only — no ratings, counts, or credentials.
+// verified reviews exist. Facts only - no ratings, counts, or credentials.
 const FACTS = [
   { value: "Since 1998", label: "in the construction industry" },
   { value: "Owner-operated", label: "Benjamin handles most projects himself" },

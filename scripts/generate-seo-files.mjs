@@ -9,7 +9,7 @@ const config = JSON.parse(readFileSync(join(root, "src/config/site.config.json")
 const siteUrl = (config.seo?.siteUrl ?? "").replace(/\/+$/, "");
 
 if (!siteUrl) {
-  console.log("[seo] seo.siteUrl is empty — skipping sitemap.xml (set it before launching).");
+  console.log("[seo] seo.siteUrl is empty - skipping sitemap.xml (set it before launching).");
   process.exit(0);
 }
 

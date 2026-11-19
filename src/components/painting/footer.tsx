@@ -29,7 +29,7 @@ const SOCIAL_LABELS: Record<string, string> = {
   youtube: "YouTube",
 };
 
-// Optional details — each line renders only if the client provided it.
+// Optional details - each line renders only if the client provided it.
 function ContactDetails() {
   const { address, hours, serviceAreas, social } = siteConfig.business;
   const addressLine = [

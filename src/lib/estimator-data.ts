@@ -1,5 +1,5 @@
 // Shared options for the project estimator and the estimate request forms.
-// No prices live here on purpose — the client has not supplied pricing.
+// No prices live here on purpose - the client has not supplied pricing.
 
 export const PROJECT_TYPES = [
   "Interior Painting",

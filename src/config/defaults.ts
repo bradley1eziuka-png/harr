@@ -22,7 +22,7 @@ export const DEFAULT_CONTENT = {
   faqs: [
     {
       q: "How do I get started with a painting project?",
-      a: "Start by sharing what you'd like to paint and the look you're hoping to achieve. A quick conversation about your space, your goals, and your timeline is the best first step — from there, the details fall into place.",
+      a: "Start by sharing what you'd like to paint and the look you're hoping to achieve. A quick conversation about your space, your goals, and your timeline is the best first step. From there, the details fall into place.",
     },
     {
       q: "Can I request an estimate?",
@@ -42,7 +42,7 @@ export const DEFAULT_CONTENT = {
     },
   ],
   footerBlurb:
-    "Professional interior, exterior, and commercial painting. Beautiful finishes, careful preparation, and attention to detail — designed to refresh, protect, and transform your space.",
+    "Professional interior, exterior, and commercial painting. Beautiful finishes, careful preparation, and attention to detail, designed to refresh, protect, and transform your space.",
   finalCta: {
     title: "Ready to Give Your Space a Fresh New Look?",
     body: "Whether you're planning a small refresh or a larger transformation, the first step is a conversation.",

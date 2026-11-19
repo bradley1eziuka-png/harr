@@ -6,7 +6,7 @@ import { BeforeAfterSlider } from "./before-after-slider";
 import { SectionHeading } from "./section-heading";
 import { ctaButton } from "./buttons";
 
-// Representative stock imagery — NOT Harr's projects. Replaced by real photos
+// Representative stock imagery - NOT Harr's projects. Replaced by real photos
 // via src/lib/projects.ts as they arrive.
 const SAMPLES = [
   {
@@ -57,14 +57,14 @@ export function Gallery() {
           <div className="mx-auto mt-14 max-w-3xl">
             <BeforeAfterSlider alt="project photos" />
             <p className="mt-4 text-center text-sm text-muted-foreground">
-              Placeholder — real before-and-after project photos will appear here.
+              Placeholder: real before-and-after project photos will appear here.
             </p>
           </div>
         )}
 
         <div className="mt-16">
           <p className="text-center text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground">
-            Representative imagery — not photos of Harr&rsquo;s completed projects
+            Representative imagery: not photos of Harr&rsquo;s completed projects
           </p>
           <div className="mt-5 grid gap-5 sm:grid-cols-3">
             {SAMPLES.map((item) => (

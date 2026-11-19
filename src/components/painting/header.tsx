@@ -48,7 +48,7 @@ export function Header() {
       )}
     >
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between gap-4 px-6">
-        <a href="/#top" className="flex items-center" aria-label={`${BUSINESS_NAME} — home`}>
+        <a href="/#top" className="flex items-center" aria-label={`${BUSINESS_NAME}, home`}>
           <Brand />
         </a>
 
@@ -60,7 +60,7 @@ export function Header() {
             Home
           </a>
 
-          {/* Services dropdown — desktop */}
+          {/* Services dropdown - desktop */}
           <div className="group relative">
             <button
               type="button"
@@ -159,7 +159,7 @@ export function Header() {
                 Home
               </a>
 
-              {/* Services dropdown — mobile (expandable) */}
+              {/* Services dropdown - mobile (expandable) */}
               <div>
                 <button
                   type="button"

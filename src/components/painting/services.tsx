@@ -13,7 +13,7 @@ const ICONS: Record<ServiceIcon, ComponentType<{ className?: string }>> = {
   wrench: Wrench,
 };
 
-// Homepage services grid — every enabled service, each linking to its page.
+// Homepage services grid - every enabled service, each linking to its page.
 export function Services() {
   return (
     <section id="services" className="section-pad scroll-mt-24 bg-background">

@@ -1,6 +1,6 @@
 // ───────────────────────────────────────────────────────────────────────────
 // Derived business values used across the site. The source of truth is
-// src/config/site.config.json — edit that file, not this one.
+// src/config/site.config.json - edit that file, not this one.
 // ───────────────────────────────────────────────────────────────────────────
 import { DEFAULT_CONTENT } from "@/config/defaults";
 import { siteConfig } from "@/config";
@@ -13,7 +13,7 @@ export const BUSINESS_PHONE = business.phone;
 export const BUSINESS_EMAIL = business.email;
 export const LEGAL_NAME = business.legalName || business.name;
 
-// Phone normalized for tel: links — derived from the display value so one
+// Phone normalized for tel: links - derived from the display value so one
 // edit updates every call button. Assumes a US number.
 const digits = BUSINESS_PHONE.replace(/\D/g, "");
 export const BUSINESS_PHONE_TEL = `tel:+${digits.length === 10 ? "1" : ""}${digits}`;

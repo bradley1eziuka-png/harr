@@ -1,4 +1,4 @@
-// `npm run check` — pre-send checklist for a client site.
+// `npm run check` - pre-send checklist for a client site.
 // Flags placeholders still in site.config.json and any text that looks like
 // another business's details leaked into the source.
 import { readFileSync, readdirSync, statSync } from "node:fs";
@@ -15,22 +15,22 @@ if (cfg.business.name === "Your Painting Company")
 if (cfg.business.phone === "(555) 555-0100")
   problems.push("business.phone is still the placeholder");
 if (cfg.form.provider === "demo")
-  notes.push("form.provider is 'demo' — fine for a Loom preview, but leads are NOT delivered");
+  notes.push("form.provider is 'demo' - fine for a Loom preview, but leads are NOT delivered");
 if (cfg.form.provider === "formspree" && !cfg.form.formspreeId)
   problems.push("form.provider is formspree but formspreeId is empty");
 if (cfg.form.provider === "ghl-webhook" && !cfg.form.webhookUrl)
   problems.push("form.provider is ghl-webhook but webhookUrl is empty");
 if (!cfg.seo.siteUrl)
   notes.push(
-    "seo.siteUrl is empty — canonical URLs and sitemap are skipped until the domain is known",
+    "seo.siteUrl is empty - canonical URLs and sitemap are skipped until the domain is known",
   );
 if (!cfg.business.address.city)
-  notes.push("business.address.city is empty — titles and hero pill aren't localized");
-if (!cfg.business.email) notes.push("business.email is empty — email is omitted from the footer");
-if (!cfg.branding.logo.src) notes.push("no logo set — the paintbrush mark is shown");
+  notes.push("business.address.city is empty - titles and hero pill aren't localized");
+if (!cfg.business.email) notes.push("business.email is empty - email is omitted from the footer");
+if (!cfg.branding.logo.src) notes.push("no logo set - the paintbrush mark is shown");
 if (cfg.content.testimonials.length === 0)
   notes.push(
-    "no testimonials — the reviews section is hidden (correct unless you have real reviews)",
+    "no testimonials - the reviews section is hidden (correct unless you have real reviews)",
   );
 
 // Strings that must never appear in a generated site's source.
@@ -67,4 +67,4 @@ if (problems.length) {
   console.log(`\n${problems.length} issue(s) to fix before sending.`);
   process.exit(1);
 }
-console.log("\nOK — no blocking issues.");
+console.log("\nOK - no blocking issues.");

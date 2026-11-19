@@ -19,7 +19,7 @@ export interface ServiceConfig {
   icon: ServiceIcon;
   eyebrow: string;
   shortDescription: string;
-  /** Specific work included — shown as chips on the card and a list on the page. */
+  /** Specific work included - shown as chips on the card and a list on the page. */
   includes: string[];
   explanation: { title: string; body: string };
   faqs: ServiceFaq[];

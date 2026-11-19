@@ -52,7 +52,7 @@ export function pageHead({
 }
 
 // schema.org HomeAndConstructionBusiness (a LocalBusiness subtype). Only fields the client
-// actually provided are emitted — nothing is invented.
+// actually provided are emitted - nothing is invented.
 export function localBusinessJsonLd() {
   const a = business.address;
   const hasAddress = Boolean(a.street || a.city || a.state || a.zip);

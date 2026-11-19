@@ -5,7 +5,7 @@
 @custom-variant dark (&:is(.dark *));
 
 /*
- * Design system — Harr's Painting and Services.
+ * Design system - Harr's Painting and Services.
  *   Dark navy  #0D2229 -> --primary / --navy
  *   Orange     #E68100 -> --accent (conversion CTA)
  *   Gold       #FFBA24 -> --gold (highlights)

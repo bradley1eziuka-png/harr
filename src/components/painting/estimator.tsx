@@ -78,7 +78,7 @@ function OptionGroup({
 }
 
 // Three-step project estimator. It deliberately shows NO dollar amounts (no
-// pricing has been supplied) — it builds a project summary and passes it to
+// pricing has been supplied) - it builds a project summary and passes it to
 // the contact form so the customer can request a real free estimate.
 export function Estimator() {
   const [c, setC] = useState<Choice>(EMPTY);
@@ -88,7 +88,7 @@ export function Estimator() {
   function requestEstimate() {
     const detail: PrefillDetail = {
       service: c.type,
-      details: `Project estimator selections — Type: ${c.type}. Approximate size: ${c.size}. Condition: ${c.condition}.\n\nAdditional details: `,
+      details: `Project estimator selections: Type: ${c.type}. Approximate size: ${c.size}. Condition: ${c.condition}.\n\nAdditional details: `,
     };
     window.dispatchEvent(new CustomEvent(PREFILL_EVENT, { detail: detail }));
     document

@@ -137,7 +137,7 @@ export function EstimateForm({ variant, formId }: { variant: Variant; formId: st
           {demo ? <Info className="size-8" /> : <CheckCircle2 className="size-8" />}
         </span>
         <h3 className="mt-5 font-display text-2xl font-semibold tracking-tight text-primary">
-          {demo ? "Preview Only — Not Sent" : "Thank You — We'll Be in Touch"}
+          {demo ? "Preview Only: Not Sent" : "Thank You, We'll Be in Touch"}
         </h3>
         <p className="mt-3 max-w-sm text-[0.95rem] leading-relaxed text-muted-foreground">
           {demo
@@ -317,7 +317,7 @@ export function EstimateForm({ variant, formId }: { variant: Variant; formId: st
       </p>
       {FORM_IS_DEMO && siteConfig.form.showDemoNotice && (
         <p className="text-center text-[0.7rem] font-semibold uppercase tracking-[0.14em] text-muted-foreground/70">
-          Preview mode — form not connected yet
+          Preview mode: form not connected yet
         </p>
       )}
     </form>

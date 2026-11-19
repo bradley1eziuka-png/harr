@@ -1,4 +1,4 @@
-# Harr's Painting and Services — website mockup
+# Harr's Painting and Services - website mockup
 
 Local preview built from the master painting template (TanStack Start + Tailwind).
 
