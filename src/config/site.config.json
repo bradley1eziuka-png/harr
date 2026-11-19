@@ -1,0 +1,92 @@
+{
+  "business": {
+    "name": "Harr's Painting and Services",
+    "shortName": "Harr's Painting",
+    "legalName": "Harr's Painting and Services LLC",
+    "owner": "Benjamin Harr",
+    "foundingDate": "2024-05",
+    "phone": "(608) 797-6803",
+    "email": "harrb50@gmail.com",
+    "address": {
+      "street": "",
+      "city": "Onalaska",
+      "state": "WI",
+      "zip": ""
+    },
+    "serviceAreas": [],
+    "hours": [
+      {
+        "days": "Monday–Saturday",
+        "hours": "6:30 AM–5:30 PM"
+      }
+    ],
+    "schemaHours": ["Mo-Sa 06:30-17:30"],
+    "social": {
+      "facebook": "",
+      "instagram": "",
+      "google": "",
+      "yelp": "",
+      "nextdoor": "",
+      "youtube": ""
+    }
+  },
+  "branding": {
+    "logo": {
+      "src": "",
+      "alt": ""
+    },
+    "favicon": "/favicon.svg",
+    "colors": {},
+    "images": {}
+  },
+  "services": {
+    "enabled": ["painting", "siding", "drywall", "roofing", "remodeling", "repairs"],
+    "overrides": {}
+  },
+  "content": {
+    "hero": {
+      "eyebrow": "Owner-Operated",
+      "headline": "Painting & Home Improvement Services in Onalaska, WI",
+      "subheadline": "Interior and exterior painting, siding, drywall, and home repairs. Over 25 years of hands-on construction experience. Free estimates."
+    },
+    "about": {},
+    "faqs": [
+      {
+        "q": "Do you offer free estimates?",
+        "a": "Yes. Estimates are free. Use the form on this page or call (608) 797-6803 and Benjamin will follow up about your project."
+      },
+      {
+        "q": "What kinds of projects do you take on?",
+        "a": "Interior and exterior painting, siding, drywall, roofing, remodeling, and general repairs and maintenance, for residential and commercial properties. If you're not sure your project fits, just ask."
+      },
+      {
+        "q": "Who will actually do the work?",
+        "a": "Benjamin personally handles most projects. For larger jobs he brings in other experienced tradespeople."
+      },
+      {
+        "q": "What area do you serve?",
+        "a": "Harr's Painting and Services is based in Onalaska, Wisconsin and serves the surrounding tri-state area. Call or send a request to confirm that your location is covered."
+      },
+      {
+        "q": "Are there discounts for new customers?",
+        "a": "Ask about available discounts for first-time customers when you request your estimate."
+      }
+    ],
+    "footerBlurb": "Painting and home improvement services in Onalaska, WI. Call or request a free estimate.",
+    "finalCta": {},
+    "testimonials": []
+  },
+  "seo": {
+    "siteUrl": "",
+    "title": "Harr's Painting and Services | Painting & Home Improvements in Onalaska, WI",
+    "description": "Harr's Painting and Services offers residential and commercial painting, siding, drywall, roofing, and home improvements in Onalaska, WI. Call for a free estimate.",
+    "ogImage": "",
+    "locale": "en_US"
+  },
+  "form": {
+    "provider": "demo",
+    "formspreeId": "",
+    "webhookUrl": "",
+    "showDemoNotice": false
+  }
+}
